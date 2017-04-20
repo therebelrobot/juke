@@ -1,7 +1,7 @@
 {
-  "name": "botkit-starter-slack",
-  "version": "0.0.2",
-  "description": "A starter kit for building a custom Slack bot with Botkit Studio",
+  "name": "@therebel/juke",
+  "version": "0.0.0",
+  "description": "A Slack bot that allows democratic control of a Spotify instance.",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -20,17 +20,26 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit-starter-slack.git"
+    "url": "https://github.com/therebelrobot/juke.git"
   },
   "bugs": {
-    "url": "https://github.com/howdyai/botkit-starter-slack/issues"
+    "url": "https://github.com/therebelrobot/juke/issues"
   },
-  "homepage": "https://github.com/howdyai/botkit-starter-slack",
+  "homepage": "https://github.com/therebelrobot/juke",
   "keywords": [
     "bots",
     "chatbots",
-    "slack"
+    "slack",
+    "spotify",
+    "jukebox",
+    "juke",
+    "playlist",
+    "music",
+    "song",
+    "songs",
+    "playlists",
+    "radio"
   ],
-  "author": "ben@howdy.ai",
-  "license": "ISC"
+  "author": "Ozzy Haven (@therebelrobot) <npm@therebelrobot.com>",
+  "license": "MIT"
 }
