@@ -2,22 +2,19 @@
   "name": "@therebel/juke",
   "version": "0.0.0",
   "description": "A Slack bot that allows democratic control of a Spotify instance.",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "dev": "nodemon --exec npm start",
+    "start": "micro -p ${PORT:-5555}"
   },
   "dependencies": {
-    "body-parser": "^1.15.2",
     "botkit": "^0.5",
-    "dashbot": "0.7.4",
-    "debug": "^2.3.3",
-    "express": "^4.14.0",
-    "node-env-file": "^0.1.8",
-    "querystring": "^0.2.0",
-    "request": "^2.79.0",
-    "wordfilter": "^0.2.6"
+    "micro": "^7.3.2",
+    "micro-api": "^0.1.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/therebelrobot/juke.git"
